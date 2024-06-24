@@ -80,7 +80,31 @@ var assignmentsArray = [
       description:
         "A Calculator Using Function!",
     },
-
+    {
+      title: "For Each use",
+      code: "https://github.com/Qasimmemon/for-each",
+      link: "https://qasimmemon.github.io/for-each/",
+      date: "14-May-2024",
+      description:
+        "A Website Using For Each!",
+    },
+    {
+      title: "Todo With Local Storage",
+      code: "https://github.com/Qasimmemon/local-storage",
+      link: "https://qasimmemon.github.io/local-storage/",
+      date: "14-May-2024",
+      description:
+        "Todo Save local Storage!",
+    },
+    {
+      title: "Search Product With Filter ",
+      code: "https://github.com/Qasimmemon/filter",
+      link: "https://qasimmemon.github.io/filter/",
+      date: "14-May-2024",
+      description:
+        "A Simple Page And Search product and Filter!",
+    },
+    
 
     
   ];
@@ -91,8 +115,9 @@ var assignmentsArray = [
     var div = ` <div class="p-4 md:w-1/3">
     <div
       class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
+     
     >
-      <div class="p-6">
+      <div class="p-6" >
         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
          ${assignmentsArray[i].title} 
         </h1>
